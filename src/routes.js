@@ -7,8 +7,8 @@ import NotFound from './presentational/not-found.component';
 
 export default (
   <Route path='/' component={Navigation}>
-    <IndexRoute component={Home} />
-    <Route patch='contact' component={Contact} />
-    <Route path='*' component={NotFound} />
+    <IndexRoute component={Home}/>
+    <Route path='contact' component={Contact}/>
+    <Route path='*' component={NotFound}/>
   </Route>
 );

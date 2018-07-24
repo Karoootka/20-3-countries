@@ -8,7 +8,7 @@ import routes from './routes';
 
 render(
   <Provider store={store}>
-    <Router history={hashHistory} routes={routes} />
+    <Router history={hashHistory} routes={routes}/>
   </Provider>,
   document.getElementById('root')
 );

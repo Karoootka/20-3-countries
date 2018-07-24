@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 import CountryFlag from './flag.component';
 
-const CountryList = (props) => (
+const CountryFlagList = (props) => (
   <div className="countries-list">
     {props.countries.map(country => {
       return (

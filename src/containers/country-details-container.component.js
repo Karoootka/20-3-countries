@@ -25,4 +25,4 @@ const mapStateToProps = function(store) {
   };
 };
 
-export default connec(mapStateToProps)(CountryDetailsContainer);
+export default connect(mapStateToProps)(CountryDetailsContainer);
